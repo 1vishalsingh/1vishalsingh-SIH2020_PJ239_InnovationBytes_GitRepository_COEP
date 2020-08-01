@@ -1,0 +1,58 @@
+*{
+    margin-top:0;
+    box-sizing:border-box;
+}
+body{
+    background-image : linear-gradient(-45deg, #28ee28 ,#1782fd, #f76bdf, #231ff5);  
+    width:100%;
+    height: 100vh;
+    background-size: 200% 200% ;
+    position: relative;
+    animation: change 20s ease-in-out infinite;    
+}
+.home1{
+    font-size:2.2vw;
+    color:black;
+}
+.sectionA{
+     text-align: center;
+     margin-top: 11vw; 
+     position: relative;
+}
+.sectionA img{
+    width: 13vw;
+    height: auto;
+}
+.sectionA img:hover{
+    transform: scale(1.1);
+}
+
+.sectionB{
+    text-align: center;
+    color: black;
+    margin-top: 6vw; 
+}   
+.input{
+   
+    padding-top: 2vw;
+    max-width: 25vw;
+    min-width: 24vw;
+    margin: auto;
+}
+.input button:hover{
+    transform: scale(1.1);
+}
+ 
+
+@keyframes change {
+    0%{
+        background-position:0 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0 50%;
+    }
+
+}

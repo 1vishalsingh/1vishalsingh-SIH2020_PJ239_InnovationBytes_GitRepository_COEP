@@ -1,0 +1,86 @@
+
+ 
+.side-nev{
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width:250px;
+    z-index: 1;
+    top: 0;
+    left: 0;    
+    overflow-x: hidden;       
+    transition: 0.5s;
+    margin-top: 65px;
+}
+
+.side-nev a{
+    text-align: center;
+    transition: 0.5s;
+    
+}
+.side-nev a:hover{
+    background-color:#007bff;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: default;    
+
+    
+
+}
+.content{
+    padding-left: 250px;
+    
+}
+ 
+
+.open-slide :hover{
+    background-color:#007bff;
+    cursor: default;
+        
+}
+.search{
+    padding-left : 25%;
+    margin-bottom:10px;
+    padding-top:20px;
+    background-color:#007bff;      
+    background-size: cover;
+    
+    max-height: 75px;
+    width: 100%;
+
+    
+    
+} 
+ 
+.search button:hover{
+    transform: scale(1.05);
+    cursor: default;
+}
+.header{
+    background-color: red;
+    transform: none;
+} 
+
+.tab tr:hover{
+        background-color: lawngreen;
+        transform: scale(1.07);
+        cursor: default;
+        color: black;
+}
+
+ tr{
+        text-align: center;
+
+ }         
+    
+
+
+
+
+
+
+
+
+
+
